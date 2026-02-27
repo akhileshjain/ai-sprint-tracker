@@ -79,8 +79,8 @@ const SPRINTS = [
     ]
   },
   {
-    id: "s6", num: 6, title: "Capstone, Portfolio & Job Launch",
-    goal: "Ship showpiece project, prepare for interviews, launch your new career positioning",
+    id: "s6", num: 6, title: "Capstone & Portfolio",
+    goal: "Ship a capstone project and build your AI portfolio — the ultimate proof of your skills",
     weeks: ["Wk 21-22","Wk 23-24","Wk 25","Wk 26"], color: "#06b6d4", accent: "rgba(6,182,212,0.12)",
     stories: [
       { id:"s6-1", week:21, type:"TASK", points:3, title:"Capstone domain selection + architecture spec", desc:"Choose domain (finance, legal, HR, dev tools). Write 1-page architecture spec: agents, tools, data, cloud, UI.", links:[] },
@@ -89,8 +89,7 @@ const SPRINTS = [
       { id:"s6-4", week:23, type:"PROJECT", points:4, title:"Capstone Sprint 2: UI + Security + Deploy", desc:"Frontend UI (Streamlit/Gradio/Next.js), guardrails, LangSmith tracing. Live on AWS.", links:[] },
       { id:"s6-5", week:24, type:"PROJECT", points:5, title:"🚀 Ship: Capstone — Full Polish", desc:"Error handling, edge cases. README with architecture diagram. 3-min demo video on YouTube (unlisted). Add to portfolio.", links:[] },
       { id:"s6-6", week:25, type:"TASK", points:3, title:"LinkedIn full overhaul", desc:"Headline: 'AI/Agentic Systems Engineer | LangGraph · CrewAI · AWS Bedrock'. Rewrite About. Update all experience entries.", links:[{label:"LinkedIn Jobs",url:"https://www.linkedin.com/jobs/search/?keywords=agentic+ai+engineer"}] },
-      { id:"s6-7", week:25, type:"TASK", points:3, title:"Send first 10 job applications", desc:"Apply to 5–10 AI engineering roles. Tailor each cover note. Track in a spreadsheet.", links:[] },
-      { id:"s6-8", week:26, type:"TASK", points:2, title:"Publish blog post #2 + Interview prep", desc:"'How I went from X to AI Engineer in 6 months.' Practice: system design for AI systems, LLM cost optimisation.", links:[] },
+      { id:"s6-7", week:26, type:"TASK", points:2, title:"Publish blog post #2", desc:"'How I went from X to AI Engineer in 6 months.' Practice: system design for AI systems, LLM cost optimisation.", links:[] },
     ]
   },
 ];
